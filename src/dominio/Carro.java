@@ -10,6 +10,8 @@ public class Carro extends Vehiculo {
         this.color = color;
     }
 
+    //TODO: Crear método para lavar carro
+
     @Override
     public String obtenerTipo() {
         return "Carro";
