@@ -4,6 +4,7 @@ import dominio.interfaces.Conducible;
 
 public class Carro extends Vehiculo {
     private String color;
+    private String ejes;
 
     public Carro(int id, String marca, String modelo, String placa, String color, Conductor conductor) {
         super(id, marca, modelo, placa, conductor);
